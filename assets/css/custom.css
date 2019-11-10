@@ -1,0 +1,32 @@
+
+ .hidden {
+    display: none;
+ }
+ 
+ .navbar-scrolled{
+     background-color: #fff;
+     height: 80px;
+	 box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+ }
+
+.navbar .nav-item{
+    color: #fff;
+    margin-right: 10px;
+    
+ }
+
+ .bgsharfin{
+    background-image: linear-gradient(120deg, #17AA79 0%, #15ADA5 100%);
+ }
+
+ .bgsharfin-2{
+   background-image: linear-gradient(120deg, rgb(62, 194, 150) 0%, rgb(76, 223, 215) 100%);
+}
+
+ .text-link{
+    color: rgb(99, 122, 121);
+ }
+
+ .btn-sharfin{
+    
+ }
