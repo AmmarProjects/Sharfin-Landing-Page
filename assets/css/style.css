@@ -2985,6 +2985,23 @@ a.animated-button.style2:hover:after {
 }
 
 @media only screen and (max-width: 991px) {
+
+	.navbar-dark{
+		background-image: linear-gradient(120deg, #17AA79 0%, #15ADA5 100%);
+	}
+
+	.navbar-light{
+		background: #fff;
+	}
+
+	#slider{
+		margin-top: 70px;
+	}
+
+	.navbar .container a img{
+		height: 25px;
+	}
+	
 	/** NAVIGAITON **/
 
 	.navbar-scrolled #navbarSupportedContent {
@@ -3004,9 +3021,8 @@ a.animated-button.style2:hover:after {
 	#navbarSupportedContent {
 		position: absolute;
 		top: 67px;
-		background-color: rgb(21, 173, 127);
-		padding-left: 20px;
-		padding-right: 20px;
+		background-image: linear-gradient(120deg, #17AA79 0%, #15ADA5 100%);
+		padding: 20px;
 		width: 95%;
 		left: 0;
 		right: 0;
