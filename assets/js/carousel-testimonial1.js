@@ -16,7 +16,7 @@
 	    dots:true,
 	    items:3,
 	    stagePadding: 30,
-	    smartSpeed:800,
+		smartSpeed:800,
 	    responsive:{
 	    	992:{
 	            items:3,

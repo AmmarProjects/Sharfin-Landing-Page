@@ -32,6 +32,8 @@
             $("#mainNav").addClass("navbar-scrolled");
             $("#mainNav").addClass("navbar-light");
             $("#mainNav").removeClass("navbar-dark");
+            $("#daftar").addClass("bg-sharfin");
+            $("#daftar").removeClass("bg-sharfin-white");
             $('.navbar .container a img').attr('src', 'assets/images/sharfin-logo-color.svg');
         } else {
             $("#mainNav").removeClass("navbar-scrolled");
@@ -39,6 +41,8 @@
             $("#mainNav").removeClass("navbar-light");
             $("#mainNav").addClass("navbar-dark");
             $('.navbar .container a img').attr('src', 'assets/images/sharfin-logo-white.svg');
+            $("#daftar").addClass("bg-sharfin-white");
+            $("#daftar").removeClass("bg-sharfin");
         }
     };
     // Collapse now if page is not at top
