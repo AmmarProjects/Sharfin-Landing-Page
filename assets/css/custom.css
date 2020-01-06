@@ -39,3 +39,130 @@
  .text-link{
     color: rgb(99, 122, 121);
  }
+
+ .btn-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    padding: 0;
+ }
+ 
+ .img-button{
+   height: 90px;
+   width: 90px;
+   margin: auto;
+ }
+
+ .vl {
+   border-left: 6px solid  rgb(76, 223, 215) ;
+   height: 80px;
+   margin-left: 50%;
+   margin-right: 50%;
+ }
+
+ #section-blogdetail2 {
+   padding-top: 120px;
+   padding-bottom: 30px;
+   background: url('../images/doodle.png');
+   background-repeat: repeat;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.22);
+    -ms-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.22);
+    -o-box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.22);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background:  rgb(76, 223, 215) ;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.result-quiz{
+   background-color: #f0f0f0;
+   padding: 10px;
+}
+
+.btn-3,
+.btn-3:focus {
+  padding: 0;
+	font-family: 'Poppins-Regular';
+	font-size: 14px;
+	color:  #17AA79;
+	border-radius: 30px;
+	width: 100%;
+	/* max-width: 180px; */
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	letter-spacing: 1.5px;
+	display: inline-block;
+	/**/
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-3:hover {
+	color: #00ff6a;
+	/*opacity: 0.9;*/
+}
+
+.img-score{
+  width: 40%;
+  margin:auto;
+}
+
+.maps{
+  width: 100%;
+  margin:auto;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}

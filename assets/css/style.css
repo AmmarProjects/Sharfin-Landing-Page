@@ -132,6 +132,11 @@ body {
 	background: #ffffff;
 }
 
+#avatar{
+	height: 50px;
+	margin: 0;
+}
+
 p {
 	font-family: 'Poppins-Regular';
 	font-size: 18px;
@@ -285,11 +290,11 @@ h6 {
 .btn-1,
 .btn-1:focus {
 	font-family: 'Poppins-Regular';
-	font-size: 12px;
+	font-size: 14px;
 	color: #ffffff;
 	border-radius: 30px;
 	width: 100%;
-	max-width: 180px;
+	/* max-width: 180px; */
 	height: 45px;
 	text-align: center;
 	line-height: 45px;
@@ -331,7 +336,7 @@ h6 {
 .btn-2,
 .btn-2:focus {
 	font-family: 'Poppins-Regular';
-	font-size: 12px;
+	font-size: 14px;
 	color: #ffffff;
 	border-radius: 40px;
 	width: 100%;
